@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System; 
 
-namespace beecrowdQuestions_CS
-{
-    internal class Program
-    {
-        static void Main(string[] args)
+class URI {
+
+   static void Main(string[] args)
         {
             int[] notes = { 10000, 5000, 2000, 1000, 500, 200 };
             float[] coins = { 100, 50, 25, 10, 5, 1 };
@@ -29,5 +23,5 @@ namespace beecrowdQuestions_CS
                 money = money % coin;
             }
         }
-    }
+
 }
